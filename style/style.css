@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: none;
+    font-smoothing: none;
+    overflow: hidden;
+}
+
+#canvas {
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+@font-face {
+    font-family: c64;
+    src: url(dizzy.ttf);
+}
+
+#ee {
+  display:block;
+  position:absolute;
+  top:0;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
